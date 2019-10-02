@@ -75,6 +75,7 @@ li {
     background-color: rgba(0, 0, 0, 0.0);
     text-shadow: 1px 1px 2px rgb(175, 150, 150); 
     border: none;
+    text-align: end;
     cursor: pointer;
     padding-left: 5px;
 }
