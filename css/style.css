@@ -69,6 +69,7 @@ li {
 }
 
 .deleteallbtn {
+    width: 100%;
     color: rgb(27, 0, 0);
     font-size: 18px;
     font-weight: bold;
