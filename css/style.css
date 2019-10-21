@@ -19,22 +19,22 @@ body {
               "nav"
               "main"
               "footer";
-    
+
 }
-  
+
 .nav {
     padding: 0;
     margin: 0;
     grid-area: nav;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     color: rgb(119, 19, 19);
     text-shadow: 2px 3px 5px rgb(248, 160, 60);
 }
 
 .main {
     grid-area: main;
-   
+
     color: #444;
 }
 
@@ -48,7 +48,7 @@ body {
     width: 80vw;
 
 }
-  
+
 li {
     display: block;
     width: 200px;
@@ -67,7 +67,7 @@ li {
     font-size: 18px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.0);
-    text-shadow: 1px 1px 2px rgb(175, 150, 150); 
+    text-shadow: 1px 1px 2px rgb(175, 150, 150);
     border: none;
     cursor: pointer;
     padding-left: 5px;
@@ -79,7 +79,7 @@ li {
     font-size: 18px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.0);
-    text-shadow: 1px 1px 2px rgb(175, 150, 150); 
+    text-shadow: 1px 1px 2px rgb(175, 150, 150);
     border: none;
     text-align: end;
     cursor: pointer;
@@ -106,7 +106,7 @@ li {
     font-size:13px;
     font-weight:bold;
     color: rgb(27, 0, 0);
-    text-shadow: 1px 1px 2px rgb(175, 150, 150); 
+    text-shadow: 1px 1px 2px rgb(175, 150, 150);
     background-color:rgba(0, 0, 0, 0.0);
     border:none;
     text-align: end;
