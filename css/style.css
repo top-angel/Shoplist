@@ -94,6 +94,7 @@ li {
 }
 
 .storename {
+    grid-area: storename;
     color: rgb(24, 24, 24);
     background: rgba(71, 35, 35, 0.3);
     border-radius: 15px;
@@ -101,17 +102,37 @@ li {
     max-width: 350px;
 }
 
+.item{
+    display: grid;
+    grid-template-areas:
+    "storename storename storename ."
+    ". . . remove"
+    ;
+    width: 200px;
+    background-image:linear-gradient(to bottom right, rgb(216, 118, 118), rgb(129, 26, 26));
+    color:#fff;
+    text-shadow: 1px 2px 5px black;
+    border-radius:5px;
+    list-style:none;
+    padding:4px;
+    margin: 5px;
+    font-size:20px;
+}
+
 .remove{
+    grid-area: remove;
     width: 100%;
+    padding: 0;
     font-size:13px;
     font-weight:bold;
     color: rgb(27, 0, 0);
     text-shadow: 1px 1px 2px rgb(175, 150, 150);
     background-color:rgba(0, 0, 0, 0.0);
     border:none;
-    text-align: end;
+    align-self: end;
     cursor:pointer;
 }
+
 
 .footer {
     grid-area: footer;
